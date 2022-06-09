@@ -4,11 +4,11 @@ kind: Kustomization
 bases:
   - ../../base
 
-#patchesJson6902:
-#  - target:
-#      group: operators.coreos.com
-#      version: v1alpha1
-#      kind: Subscription
-#      name: elasticsearch-operator
-#      namespace: openshift-operators-redhat
-#    path: patch-channel.yaml
+patchesJson6902:
+  - target:
+      group: operators.coreos.com
+      version: v1alpha1
+      kind: Subscription
+      name: elasticsearch-operator
+      namespace: openshift-operators-redhat
+    path: patch-channel.yaml
