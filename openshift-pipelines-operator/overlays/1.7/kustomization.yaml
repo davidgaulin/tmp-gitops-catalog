@@ -9,6 +9,6 @@ patchesJson6902:
       group: operators.coreos.com
       version: v1alpha1
       kind: Subscription
-      name: openshift-pipelines-operator
+      name: openshift-pipelines-operator-rh
       namespace: openshift-operators
     path: patch-channel.yaml
