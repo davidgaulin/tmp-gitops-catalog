@@ -5,7 +5,7 @@ metadata:
   namespace: ircc-openshift-amq-broker
 spec:
   channel: 7.x
-  installPlanApproval: Manual
+  installPlanApproval: Automatic
   name: amq-broker-rhel8
   source: redhat-operators
   sourceNamespace: openshift-marketplace
