@@ -1,0 +1,11 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: Subscription
+metadata:
+  name: yaks
+spec:
+  channel: replace-me
+  installPlanApproval: Automatic
+  name: yaks
+  source: community-operators
+  sourceNamespace: openshift-marketplace
+  startingCSV: yaks-operator.v0.10.0
