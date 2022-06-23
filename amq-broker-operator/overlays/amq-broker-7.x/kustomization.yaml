@@ -11,6 +11,5 @@ patchesJson6902:
     group: operators.coreos.com
     version: v1alpha1
     kind: Subscription
-    name: amq-streams
-    namespace: openshift-operators
+    name: amq-broker-rhel8
   path: patch-channel.yaml
