@@ -7,7 +7,7 @@ Current channel overlays include:
 
 ## Usage
 
-If you have cloned the `dpm-hip=gitops-catalog` repository, you can install the AMQ Streams operator based on the overlay of your choice by running from the root `gitops-catalog` directory
+If you have cloned the `dpm-hip-gitops-catalog` repository, you can install the AMQ Streams operator based on the overlay of your choice by running from the root `gitops-catalog` directory
 
 ```
 oc apply -k amq-streams-operator/operator/overlays/<channel>
